@@ -1,0 +1,142 @@
+---
+---
+<section id="projects">
+    <div class="projects-container">
+      <h2 class="section-title">Mis Proyectos</h2>
+  
+      <div class="projects-list">
+        <!-- Proyecto 1 -->
+        <div class="project-card">
+          <img src="proyecto1.jpg" alt="Proyecto 1" class="project-image" />
+          <div class="project-info">
+            <h3 class="project-title">Sistema de Facturación Electrónica</h3>
+            <p class="project-description">Un sistema completo de facturación electrónica con integración de pagos en línea y generación de reportes.</p>
+            <p class="technologies">Tecnologías: Node.js, Express, MongoDB, Stripe</p>
+            <a href="https://github.com/tuUsuario/proyecto1" class="project-link" target="_blank">Ver en GitHub</a>
+          </div>
+        </div>
+  
+        <!-- Proyecto 2 -->
+        <div class="project-card">
+          <img src="proyecto2.jpg" alt="Proyecto 2" class="project-image" />
+          <div class="project-info">
+            <h3 class="project-title">Plataforma de Gestión de Tareas</h3>
+            <p class="project-description">Una plataforma web para la gestión de tareas y proyectos colaborativos con notificaciones en tiempo real.</p>
+            <p class="technologies">Tecnologías: React, Node.js, Socket.IO, PostgreSQL</p>
+            <a href="https://github.com/tuUsuario/proyecto2" class="project-link" target="_blank">Ver en GitHub</a>
+          </div>
+        </div>
+  
+        <!-- Agregar más proyectos aquí -->
+      </div>
+    </div>
+  </section>
+
+<style>
+    /* Estilos generales para la sección de proyectos */
+#projects {
+  padding: 3rem 2rem;
+  background-color: #f4f4f4;
+}
+
+.projects-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  color: #FF595A;
+  margin-bottom: 2rem;
+}
+
+.projects-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.project-card {
+  background-color: #CAC0B3;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+}
+
+.project-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.project-title {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 0.8rem;
+}
+
+.project-description {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.technologies {
+  font-size: 1.1rem;
+  color: #777;
+  margin-bottom: 1rem;
+}
+
+.project-link {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  background-color: #FF595A;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.project-link:hover {
+  background-color: #D94F56;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+  .projects-container {
+    padding: 1rem;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .project-card {
+    padding: 1.5rem;
+  }
+
+  .project-title {
+    font-size: 1.4rem;
+  }
+
+  .project-description {
+    font-size: 1rem;
+  }
+
+  .technologies {
+    font-size: 1rem;
+  }
+}
+
+</style>
+  

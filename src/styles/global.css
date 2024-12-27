@@ -1,0 +1,101 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* General Body Styles */
+  body {
+    font-family: 'Roboto', Arial, sans-serif; /* Cambia la fuente según prefieras */
+    background-color: #001233; /* Fondo suave para mejor legibilidad */
+    color: #333; /* Texto oscuro para buen contraste */
+    line-height: 1.6; /* Espaciado cómodo entre líneas */
+    -webkit-font-smoothing: antialiased; /* Mejora el renderizado del texto en navegadores */
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  /* Anchor Links */
+  a {
+    color: #0070f3; /* Azul para enlaces */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #0056b3; /* Azul más oscuro al pasar el ratón */
+    text-decoration: underline; /* Subrayado en hover */
+  }
+  
+  /* Headers */
+  h1, h2, h3, h4, h5, h6 {
+    color: #222; /* Tono más oscuro para encabezados */
+    font-weight: bold; /* Texto en negrita para encabezados */
+    line-height: 1.2;
+    margin-bottom: 1rem; /* Espaciado inferior */
+  }
+  
+  /* Global Container */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto; /* Centrado horizontal */
+    padding: 0 1rem; /* Espaciado interno */
+  }
+  
+  /* Buttons */
+  button {
+    background-color: #0070f3;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Images */
+  img {
+    max-width: 100%;
+    height: auto; /* Mantiene proporción */
+    display: block;
+    border-radius: 8px; /* Esquinas redondeadas */
+  }
+  
+  /* List Styles */
+  ul, ol {
+    padding-left: 1.5rem; /* Espaciado izquierdo */
+    margin-bottom: 1rem;
+  }
+  
+  li {
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Form Inputs */
+  input, textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  input:focus, textarea:focus {
+    border-color: #0070f3;
+    outline: none;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 0.875rem;
+    background-color: #222;
+    color: #fff;
+  }
+  
